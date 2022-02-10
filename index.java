@@ -203,14 +203,14 @@ public class Main {
       String loginKey = input.nextLine();
       if (loginKey.equals("Admin")) {
         System.out.println("  ========================================================================");
-        System.out.println(" =Hello Admin, Selamat datang di sistem Inventory barang Elektronik Team 3=");
+        System.out.println(" =Hello Admin, Selamat datang di Sistem Inventory barang Elektronik Team 3=");
         System.out.println("  ========================================================================");
           while (run_code == true) {
             MenuAdmin();
           }
       } else if(loginKey.equals("Supervisor")){
         System.out.println("  =============================================================================");
-        System.out.println(" =Hello Supervisor, Selamat datang di sistem Inventory barang Elektronik Team 3=");
+        System.out.println(" =Hello Supervisor, Selamat datang di Sistem Inventory barang Elektronik Team 3=");
         System.out.println("  =============================================================================");
           while (run_code == true) {
             MenuSupervisor();

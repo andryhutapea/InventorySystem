@@ -130,13 +130,13 @@ public class Main {
     }
 
     Scanner inputOption = new Scanner(System.in);
-    int option;
+    int optionAdmin;
     System.out.print(" Input nomor Menu: ");
     try {
-      option = inputOption.nextInt() - 1;
+      optionAdmin = inputOption.nextInt() - 1;
       try {
-        System.out.println(ListMenuAdmin[option]);
-        switch (option) {
+        System.out.println(ListMenuAdmin[optionAdmin]);
+        switch (optionAdmin) {
           case 0:
             AddProduct();
             break;

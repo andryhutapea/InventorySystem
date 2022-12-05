@@ -1,4 +1,4 @@
-# TugasAkhirProgramingTeam3
+# JavaSystem
 Sistem Inventory Barang Elektronik
 
 SIBET3 merupakan sebuah sistem pengelola inventori barang elektronik dari perusahaan  bertipe console yang dibangun dengan menggunakan bahasa pemrograman java.
